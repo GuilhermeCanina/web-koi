@@ -79,3 +79,14 @@ body {
     text-align: left;
     font-size: 13px;
 }
+
+.logo {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: -75px;
+}
+
+.logo img {
+    width: 25vh;
+    height: auto;
+}
