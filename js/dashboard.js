@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const token = localStorage.getItem("token");
 
   if (!token) {
-    usernameSpan.textContent = "Olá!";
-    return;
+    return window.location.href = "login.html";
   }
 
   try {
